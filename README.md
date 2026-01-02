@@ -135,11 +135,11 @@ python scanner.py
 
 ## Output
 🌐 HTML Report
-- pentest_report.html
+- ** enhanced_pentest_report.html **
 
 📄 JSON Report
-- pentest_report.json
+- ** enhanced_pentest_report.json **
 
 📄 Debug Log
-- pentest_detailed.log
+- ** pentest_detailed.log **
 
