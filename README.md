@@ -126,10 +126,12 @@ Install all dependencies:
 
 ```bash
 pip install requests beautifulsoup4 colorama jinja2 pycryptodome tldextract
+```
 
 ## Run
 ```bash
 python scanner.py
+```
 
 ## Output
 🌐 HTML Report
