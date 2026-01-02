@@ -65,6 +65,7 @@ It is meant to:
 | Path Traversal | Arbitrary file read | CWE-22 |
 | IDOR | Insecure object access patterns | CWE-639 |
 | Sensitive Data Exposure | Secrets in responses | CWE-200 |
+| XXE | Detects external entity resolution Identifies file and SSRF via XML | CWE-611|
 
 ---
 
@@ -125,4 +126,18 @@ Install all dependencies:
 
 ```bash
 pip install requests beautifulsoup4 colorama jinja2 pycryptodome tldextract
+
+## Run
+```bash
+python scanner.py
+
+## Output
+🌐 HTML Report
+- pentest_report.html
+
+📄 JSON Report
+- pentest_report.json
+
+📄 Debug Log
+- pentest_detailed.log
 
