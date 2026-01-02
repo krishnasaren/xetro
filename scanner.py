@@ -1,3 +1,7 @@
+
+
+from helper import ensure_dependencies
+ensure_dependencies()
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, parse_qs, urlencode, quote, unquote
@@ -9,12 +13,13 @@ import sys
 import hashlib
 import difflib
 import statistics
-from dataclasses import dataclass, field, asdict
-from typing import List, Dict, Set, Optional, Tuple, Any
+import importlib
+
+from colorama import Fore, Style, init
+
 from typing import Optional, List, Dict, Set, Tuple, Any
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
-from colorama import Fore, Style, init
 import logging
 from enum import Enum
 import base64
@@ -3796,6 +3801,10 @@ subprocess.run(["ping", "-c", "1", user_input], check=True)
 
         print(f"{Fore.GREEN}[+] HTML Report: enhanced_pentest_report.html{Style.RESET_ALL}")
         logger.info("HTML report generated")
+
+
+
+
 
 
 
