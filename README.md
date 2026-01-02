@@ -132,14 +132,73 @@ pip install requests beautifulsoup4 colorama jinja2 pycryptodome tldextract
 ```bash
 python scanner.py
 ```
-
+---
 ## Output
 🌐 HTML Report
-- ** enhanced_pentest_report.html **
+- enhanced_pentest_report.html 
 
 📄 JSON Report
-- ** enhanced_pentest_report.json **
+- enhanced_pentest_report.json 
 
 📄 Debug Log
-- ** pentest_detailed.log **
+- pentest_detailed.log
+
+---
+## Test Result
+
+Purpose:
+- Immediately identifies the document as a **security assessment**
+- Uses a bold bottom border for emphasis
+
+---
+
+## 2️⃣ Assessment Summary Banner
+
+A full-width colored banner containing scan metadata:
+
+### Displayed Information:
+- 🎯 **Target URL**
+- 📅 **Scan Date & Time**
+- ⏱️ **Total Scan Duration**
+- 🧩 **Detected Technology Stack**
+- ✅ **Authorization Status**
+
+Visual style:
+- Gradient background (blue → purple)
+- White text
+- Rounded corners
+
+This section answers:
+> *What was tested, when, and under what authorization*
+
+---
+
+## 3️⃣ Summary Statistics Section
+
+Displayed as **responsive cards in a grid layout**.
+
+### Metrics Shown:
+- Input Points Tested
+- Discovered Paths
+- Total Vulnerabilities
+- Confirmed Vulnerabilities
+- Critical Findings
+- High Findings
+- Medium Findings
+
+### Visual Details:
+- Each metric in its own card
+- Large numeric values
+- Color-coded risk levels:
+  - 🔴 Red = Critical
+  - 🟠 Orange = High
+  - 🟡 Yellow = Medium
+
+This section provides a **quick risk snapshot**.
+
+---
+
+## 4️⃣ Findings Section Header
+
+Labelled clearly as:
 
